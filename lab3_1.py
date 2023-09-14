@@ -18,5 +18,3 @@ ip_unique_sorted = sorted(ip_addr_unique)
 len_ip_list = len(ip_unique_sorted)
 print('Сортированный список уникальных IP-адресов:', ip_unique_sorted)
 print('Кол-во уникальных IP-адресов:', len_ip_list)
-
-# Задание 2. Операции со множествами.
