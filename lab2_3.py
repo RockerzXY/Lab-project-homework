@@ -6,7 +6,7 @@ from random import randint, shuffle
 numbers = [randint(1, 25) for i in range(9)]
 print('Созданный список:', *numbers)
 
-# Выполним сортировку по убыванию (второй способ закомментирован).
+# Выполним сортировку по убыванию (либо сортируем без парам. reverse и срезом переворачиваем).
 numbers = sorted(numbers, reverse=True)
 #numbers = numbers[::-1]
 print('Отсортированный по убыванию список:', *numbers, end='\n\n')
