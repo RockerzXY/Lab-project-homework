@@ -26,3 +26,4 @@ for elem in octets_list:
 # Используем стороннюю библиотеку для удобного построения таблицы.
 table_octets = tabulate(table_data, headers='firstrow', tablefmt="grid")
 print(table_octets)
+
