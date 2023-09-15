@@ -27,3 +27,4 @@ for elem in octets_list:
 table_octets = tabulate(table_data, headers='firstrow', tablefmt="grid")
 print(table_octets)
 
+1
