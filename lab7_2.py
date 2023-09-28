@@ -19,4 +19,4 @@ else:
 
         cidr_notation = '/' + str(count)
 
-        print(f'CIDR маски подсети {mask_input}: {cidr_notation}')
+        print(f'Префикс маски подсети {mask_input}: {cidr_notation}')
