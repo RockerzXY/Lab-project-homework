@@ -30,7 +30,6 @@ for elem in data.split('\n')[6:]:
     elem_list = list(elem.split())
     address = (elem_list[0], elem_list[1], elem_list[2])
     addresses.append(address)
-
 addresses = sorted(addresses, key=lambda x: [int(x[0])])
 print(addresses)
 
