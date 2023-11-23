@@ -2,8 +2,7 @@ import urllib.parse
 import requests
 from secrets import API_KEY
 from pprint import pprint
-from pathlib import Path
-import json
+
 
 
 # Конфигурация параметров.
