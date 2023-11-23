@@ -1,9 +1,6 @@
 import urllib.parse
 import requests
 from secrets import API_KEY
-from pprint import pprint
-from pathlib import Path
-import json
 
 
 # Конфигурация параметров.
@@ -36,7 +33,7 @@ while True:
 
     # Проверка успешности обращения к серверу.
     json_status = json_data['info']['statuscode']
-    if json_status == 402:
+    if json_status == 402:  # Статус ошибки при неверном вводе локации.
         print("**********************************************")
         print("Код ошибки: " + str(json_status) + "; Неверный ввод локации. Попробуйте ещё раз.")
         print("**********************************************\n")
